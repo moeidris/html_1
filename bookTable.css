@@ -1,0 +1,161 @@
+.logo {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    background-image: url("Healthy\ Bites\ Restaurant.png"); 
+    background-size: cover; 
+    background-position: center;
+    position: absolute; 
+    top: 10px; 
+    left: 10px;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    
+}
+.image{
+    float: left;
+}
+
+    
+header {
+    background-color:  rgb(208, 130, 66);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header a:hover {
+    color: #666;
+  }
+  
+  header .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  header nav a {
+    font-size: 1.2rem;
+    margin-right: 20px;
+  }
+ section{
+     color: white;
+ }
+ #BTH{
+    background-color: #e6a35cc5;
+    color:aliceblue ;
+    margin-top: 100px;
+    text-align: center;
+    font-style: italic;
+font-family: 'Calibri';
+}
+body{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.841),rgba(0, 0, 0, 0.5)),url(./pic/bt.jpeg); 
+    background-position: center;
+   background-size: cover;
+   height: 150vh; 
+   color: white;
+   
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family:  'Times New Roman';
+   
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+  }
+  
+  label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    border-top: 2px solid #000;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:hover,
+  input[type="date"]:hover,
+  input[type="number"]:hover,
+  input[type="email"]:hover {
+    background-color: #f2f2f2b6;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus {
+    outline: none;
+    border-color: dodgerblue;
+  }
+  
+  input[type="text"]::placeholder,
+  input[type="date"]::placeholder,
+  input[type="number"]::placeholder,
+  input[type="email"]::placeholder{
+    color: #999;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #007bff;
+  }
+  button{
+    background-color: #e49a5f;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    
+
+  }
+  

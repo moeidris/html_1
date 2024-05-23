@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(rgb(236, 249, 255),
+    rgb(255, 251, 235),
+    rgb(255, 231, 204),
+    rgb(248, 203, 166));
+    height: 200vh;
+    
+}
+.logo {
+    width: 80px; /* Adjust width as needed for your logo size */
+    height: 80px; /* Set the same width for a circle */
+    border-radius: 50%; /* Creates a circular shape */
+    background-image: url("Healthy\ Bites\ Restaurant.png"); 
+    background-size: cover; 
+    background-position: center;
+    position: absolute; 
+    top: 10px; 
+    left: 10px;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    
+}
+.image{
+    float: left;
+}
+
+    
+header {
+    background-color: rgb(208, 130, 66);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header a:hover {
+    color: #666;
+  }
+  
+  header .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  header nav a {
+    font-size: 1.2rem;
+    margin-right: 20px;
+  }
+ section{
+     color: white;
+ }
+h1{
+  color: rgb(247, 244, 244);
+     font-size:xx-large;
+     font-size: 2em;
+     text-align: center;
+     margin-top: 100px;
+}
+#MT{
+    background-color:rgba(25, 17, 17, 0.804);
+}
+ #img1{
+    width: auto;
+    height: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.841),rgba(0, 0, 0, 0.66)),url(./pic/ANS.jpeg); 
+     background-position: center;
+    background-size: cover;
+    
+
+}
+#ANS{
+    color: white;
+}
+
+div{
+  
+
+  color: white;
+    font-style: italic;
+
+}
+.IMGS{
+    width: 400px;
+    height: 200px;
+}
+#Soup{
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.863),rgba(0, 0, 0, 0.666)),url(./pic/soups.jpeg); 
+   background-position: center;
+  background-size: cover;
+}
+#mcs{
+  width: auto;
+  height: 1500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.888),rgba(0, 0, 0, 0.665)),url(./pic/salmon-tacos.jpg); 
+   background-position: center;
+  background-size: cover;
+}
